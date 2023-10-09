@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgrey;
+}
+
+h1 {
+    font-size: larger;
+    color: black;
+    background-color: #808080;
+}
+.main-title {
+    font-weight: 100;
+}
