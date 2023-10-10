@@ -71,7 +71,114 @@
 * 4.**Write down the correct DOCTYPE declaration for html 5**
     * The correct DOCTYPE declaration for HTML5 is:
       <br>
-      &lt;!DOCTYPE html&gt;y
+      &lt;!DOCTYPE html&gt;
+* 5.**Write down syntactically correct statements for the following elements**
+    * Article (``<article>``) :
+    ```html
+    <article>
+        <h1>This is a header<h1>
+        <p>
+            Paragraph one
+        <p>
+    </article>
+    ```
+    * Body (``<body>``) : 
+    ```html
+    <body>
+        <article>
+        
+        </article>
+    </body>
+    ```
+    * line break (``<br/>``) :
+    ```html
+    <p>
+        Some text here
+        <br>
+        Some other text here
+    <p>
+    ```
   
+    * Headings (``<h1>``, ...) :
+    ```html
+    <section>
+        <h1>Title</h1>
+    <section>
+    ```
+  
+    * Section with meta-information (``<head>``) :
+    ```html
+    <head>
+        ...
+    </head>
+    ```
+  
+    * Top level element (``<html>``) :
+    ```html
+    <html>
+        <head>
+            ...
+        <head>
+  
+        <body>
+            ...
+        <body>
+    <html>
+    ```
+    
+    * Image named ``Team.jpg`` (``<img src="Team.jpg">``) :
+    ```html
+    <p>
+        <img src="Team.jpg" alt="Picture">
+    </p>
+    ```
+  
+    * Paragraph (``<p>``) :
+    ```html
+    <article>
+       <p>First Par<p> 
+    <article>
+    ```
+
+  * Section (``<section>``)
+  ```html
+  <body>
+    <article>
+        <section>
+            ...
+        <section>
+    <article>
+  <body>
+  ```
+
+    * Label appearing in the title bar (``<title>``)
+    ```html
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    ```
+  
+    * Link to other pages (``<a>``) :
+    ```html
+    <p>
+       <a href="cheatsheet.html">Cheatsheet</a>
+    </p>
+    ```
+    * Comment :
+    ```html
+    <p>
+       <a href="cheatsheet.html">Cheatsheet</a>
+        <!-- This is a comment -->
+    </p>    
+    ```
+  * Head with title and meta elements
+  ```html
+  <head>
+        <meta charset="UTF-8">
+        <title>Assignment 2</title>
+  </head>
+  ```
+    
 
   
