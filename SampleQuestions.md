@@ -39,7 +39,7 @@
 
 ## Answers
 ### HTML
-* 1.    **Name the components of html elements properly:**
+* 1.**Name the components of html elements properly:**
    <br>
   First of all every HTML Document starts with the &lt;!DOCTYPE html&gt; declaration which declares the version of an HTML document.
   <br>
@@ -179,6 +179,135 @@
         <title>Assignment 2</title>
   </head>
   ```
-    
-
   
+### CSS
+
+* 1.**Name the components of a css rule properly**
+    * There are 4 components in a css rule.
+    * CSS selectors are used to "find" (or select) the HTML elements you want to style.
+    * The Declaration Block defines the actual styles that will be applied to the selected element.
+    * The property specifies what aspect of the selected element(s) you want to style.
+    * The value is the specific setting you want to apply to the property. It determines how the selected element(s) should appear or behave.
+* 2.**Use combinators properly: direct child, descendant, adjacent sibling, sibling**
+    * ```css
+      article section {
+       font-weight: 100; 
+      }
+      
+      article > section{
+      font-weight: 200;
+      }
+      
+      article + section{
+      font-weight: 300;
+      }
+      
+      article ~ section {
+      font-weight: 400;
+      }
+      ```
+    
+* 3.**Specify colors by color names and in hexadecimal notation**
+  * With CSS, a color is most often specified by:    
+    - a valid color name - like "red"
+    <br>
+    - a HEX value - like "#808080"
+
+* 4.**Declarations for color, background color**
+    * ```css
+      body {
+      color: green;
+      background-color: lightblue;
+      }
+      ```
+* 5.**Pseudo classes for the &lt;a&gt; element**
+    * This would be an example for a pseudo class: 
+      ```css
+      a:link {  
+      color: blue;
+      text-decoration: none;
+      }
+      ```  
+* 6.**Declaration for background image**
+    * ```css
+      body {
+        background-image: url("image.jpg");
+      }
+      ```
+* 7.**Declaration for text alignment (left, right, center, justify)**
+    * ```css
+      
+      h1 {
+      text-align: center;
+      }
+
+      h2 {
+      text-align: left;
+      }
+
+      h3 {
+      text-align: right;
+      }
+      ```
+* 8.**Declaration for text decoration (overline, underline, line-through)**
+    * ```css
+      text-decoration-line
+      text-decoration-color
+      text-decoration-style
+      text-decoration-thickness
+      text-decoration
+      ```
+* 9.**Declaration for text transformation (uppercase, lowercase, capitalize)**
+    * ```css
+      p.uppercase {
+      text-transform: uppercase;
+      }
+
+      p.lowercase {
+      text-transform: lowercase;
+      }
+
+      p.capitalize {
+      text-transform: capitalize;
+      }
+      ```
+* 10.**Identify the difference between serif and sans-serif fonts**
+    * Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+      Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+* 11.**Declarations for font families**
+    * ```css
+      .p1{
+        font-family: "Times New Roman", Times, serif;
+      }
+      
+      .p2{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .p3{
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+      ```
+* 12.**Declarations for font style normal and italic**
+    * ```css
+      p {
+      font-style: normal;
+      }
+      
+      em {
+      font-style: italic;
+      }
+      ```
+* 13.**Declarations for font sizes**
+    * ```css
+      p {
+      font-size: 16px;
+      }
+      ```
+* 14.**Declarations for font weights**
+    * ```css
+      p {
+      font-weight: 100;
+      }
+
+      ```
