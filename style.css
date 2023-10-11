@@ -3,7 +3,7 @@ body {
     background: lightgrey;
 }
 
-h1 {
+h2 {
     text-align: center;
     font-size: larger;
     color: black;
@@ -11,6 +11,13 @@ h1 {
 }
 .main-title {
     font-weight: 100;
+}
+
+.default {
+    background-color: lightgray; color: black;
+}
+.default:hover {
+    background: lightgray;
 }
 
 #heading{
@@ -51,10 +58,6 @@ h1 {
 #Home {
     top: 40px;
     background-color: #808080;
-}
-
-#links{
-    margin-top: 60px;
 }
 
 
