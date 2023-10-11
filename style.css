@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: larger;
     color: black;
     background-color: #808080;
@@ -11,3 +12,49 @@ h1 {
 .main-title {
     font-weight: 100;
 }
+
+#heading{
+    text-align: center;
+}
+
+#myCheatsheet a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 10px 10px 0; /* Abrundung */
+}
+
+#myCheatsheet a:hover {
+    left: 0;
+}
+
+#General {
+    top: 100px;
+    background-color: #04AA6D;
+}
+
+#HTML {
+    top: 160px;
+    background-color: #2196F3;
+}
+
+#CSS {
+    top: 220px;
+    background-color: #f44336;
+}
+
+#Home {
+    top: 40px;
+    background-color: #808080;
+}
+
+#links{
+    margin-top: 60px;
+}
+
+
