@@ -65,5 +65,14 @@ h2 {
     width: 150px;
 }
 
+dt {
+    margin-inline-start: 40px;
+}
+
+dd{
+    margin-inline-start: auto;
+}
+
+
 
 

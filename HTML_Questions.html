@@ -8,18 +8,22 @@
         <article class="main-article">
 
             <h2>
-                HTML Sample Questions
+                HTML
             </h2>
 
             <link type="text/css" rel="stylesheet" href="style.css">
 
             <section>
-                
+
                 <div id="button" class="WMC">                   
                     <a href="index.html">Home</a>
                 </div>
 
                 <hr>
+
+                <h2>
+                    HTML Sample Questions
+                </h2>
 
                 <h3>                  
                     1) Name the components of html elements properly
@@ -88,10 +92,91 @@
             </section>
 
             <hr>
-            <p>
-                (Question 5 only on md file)
-            </p>            
+           
+            <h2>Lists and Tables</h2>
 
+            <h3>Lists:</h3>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Kind of Lists</th>
+                        <th>Required tags and meaning</th>
+                        <th>Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Unordered List
+                        </td>
+                        <td>
+                            &lt;ul&gt;:
+                            The list items will be marked with bullets and are not sorted.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    First Item
+                                </li>
+                                <li>
+                                    Second Item
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ordered List
+                        </td>
+                        <td>
+                            &lt;ol&gt;: The Items can be marked numerical or alphabetical.
+                        </td>
+                        <td>
+                            <p>Default list style:</p>
+
+                            <ol>
+                                <li>
+                                    First Item
+                                </li>
+                                <li>
+                                    Second Item
+                                </li>
+                            </ol>
+
+                            <p>
+                                Alphabetical list style
+                                <br>
+                                &lt;ol style="list-style-type:lower-alpha;"&gt;&lt;/ol&gt;
+                            </p>
+                            
+                            <ol style="list-style-type:lower-alpha;">
+                                <li>
+                                    First Item
+                                </li>
+                                <li>
+                                    Second Item
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Description List
+                        </td>
+                        <td>
+                            &lt;dl&gt;: A description list is a list of terms, with a description of each term.
+                        </td>
+                        <td>
+                            <dl>
+                                <dd>Term &lt;dt&gt;</dd>
+                                <dt>Description &lt;dd&gt;</dt>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
     </body>
 </html>
