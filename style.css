@@ -73,6 +73,11 @@ dd{
     margin-inline-start: auto;
 }
 
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
 
 
 
