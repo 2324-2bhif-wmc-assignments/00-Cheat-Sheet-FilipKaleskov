@@ -1,15 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: lightgrey;
-    margin: 0;
+    margin: 1rem;
 }
 
-h2 {
+.main-header {
     text-align: center;
     font-size: larger;
     color: black;
     background-color: #808080;
+    padding: 1rem;    
+    border-radius: 10px;
 }
+
 .main-title {
     font-weight: 100;
 }
@@ -82,8 +85,27 @@ table, th, td {
     height: 200px;
     width: 340px;   
     float: right; 
+    margin-top: 4rem;
 }
 
 #box_model_list {
     float: left;
+}
+
+.home-button {
+    text-align: center;
+    font-size: larger;
+    color: black;
+    background-color: #808080;
+    padding: 1rem;    
+    border-radius: 10px;    
+}
+
+.home-button h2{
+    display: inline;    
+}
+
+.home-button a {
+    float: left;    
+    
 }
