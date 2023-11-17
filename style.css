@@ -106,6 +106,10 @@ table, th, td {
 }
 
 .home-button a {
-    float: left;    
-    
+    float: left;        
+}
+
+.return-picture {
+    height: 20px;
+    width: 20px;
 }
