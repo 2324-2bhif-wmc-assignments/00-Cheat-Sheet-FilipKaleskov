@@ -104,3 +104,31 @@ table, th, td {
     height: 2rem;
     width: 2rem;
 }
+
+@keyframes header-animation {
+    0%{
+        margin-top: -20rem;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+#heading {
+    animation: header-animation 2s ease-in-out forwards;
+}
+
+.home-button {
+    animation: header-animation 1s ease-in-out forwards;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    border-radius: 0.2rem;
+    background-color: grey;
+}
+
+#links a:hover{
+    border:20px red;
+}
