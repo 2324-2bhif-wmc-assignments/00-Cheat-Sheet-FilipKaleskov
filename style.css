@@ -59,6 +59,11 @@ body {
     background-color: #f44336;
 }
 
+#Bootstrap {
+    top: 280px;
+    background-color: yellow;
+}
+
 dt {
     margin-inline-start: 40px;
 }
@@ -87,7 +92,7 @@ table, th, td {
     text-align: center;
     font-size: larger;
     color: black;
-    background-color: #808080;
+    background-image: linear-gradient(to bottom right, grey, lightgray);
     padding: 1rem;    
     border-radius: 10px;    
 }
@@ -127,8 +132,4 @@ table, th, td {
     color: black;
     border-radius: 0.2rem;
     background-color: grey;
-}
-
-#links a:hover{
-    border:20px red;
 }
