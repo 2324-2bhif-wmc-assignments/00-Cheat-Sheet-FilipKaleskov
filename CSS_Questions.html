@@ -43,9 +43,24 @@
                 2) Use combinators properly: direct child, descendant, adjacent sibling, sibling
             </h3>
 
-            <p>
-                <img src="pictures/2.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                article section {
+                  font-weight: 100;
+                }
+
+                article > section {
+                  font-weight: 200;
+                }
+
+                article + section {
+                  font-weight: 300;
+                }
+
+                article ~ section {
+                  font-weight: 400;
+                }
+            </pre>
 
             <hr>
 
@@ -73,9 +88,13 @@
                 4) Declarations for color, background color
             </h3>
 
-            <p>
-                <img src="pictures/4.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                body {
+                color: green;
+                background-color: lightblue;
+                }
+            </pre>
 
             <hr>
 
@@ -84,11 +103,13 @@
                 <br>
             </h3>
 
-            <p>
-                This would be an example for a pseudo class:
-                <br> <br>
-                <img src="pictures/5.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                a:link {
+                color: blue;
+                text-decoration: none;
+                }
+            </pre>
 
             <hr>
 
@@ -96,9 +117,12 @@
                 6) Declaration for background image
             </h3>
 
-            <p>
-                <img src="pictures/6.png" alt="Picutre">
-            </p>
+            <pre class="pre-box">
+
+                body {
+                background-image: url("image.jpg");
+                }
+            </pre>
 
             <hr>
 
@@ -106,9 +130,20 @@
                 7) Declaration for text alignment (left, right, center, justify)
             </h3>
 
-            <p>
-                <img src="pictures/7.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                h1 {
+                text-align: center;
+                }
+
+                h2 {
+                text-align: left;
+                }
+
+                h3 {
+                text-align: right;
+                }
+            </pre>
 
             <hr>
 
@@ -116,9 +151,14 @@
                 8) Declaration for text decoration (overline, underline, line-through)
             </h3>
 
-            <p>
-                <img src="pictures/8.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                text-decoration-line
+                text-decoration-color
+                text-decoration-style
+                text-decoration-thickness
+                text-decoration
+            </pre>
 
             <hr>
 
@@ -126,9 +166,21 @@
                 9) Declaration for text transformation (uppercase, lowercase, capitalize)
             </h3>
 
-            <p>
-                <img src="pictures/9.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                p.uppercase {
+                text-transform: uppercase;
+                }
+
+
+                p.lowercase {
+                text-transform: lowercase;
+                }
+
+                p.capitalize {
+                text-transform: capitalize;
+                }
+            </pre>
 
             <hr>
 
@@ -155,9 +207,20 @@
                 11) Declarations for font families
             </h3>
 
-            <p>
-                <img src="pictures/11.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                .p1{
+                font-family: "Times New Roman", Times, serif;
+                }
+
+                .p2{
+                font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .p3{
+                font-family: "Lucida Console", "Courier New", monospace;
+                }
+            </pre>
 
             <hr>
 
@@ -165,9 +228,16 @@
                 12) Declarations for font style normal and italic
             </h3>
 
-            <p>
-                <img src="pictures/12.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                p {
+                font-style: normal;
+                }
+
+                em {
+                font-style: italic;
+                }
+            </pre>
 
             <hr>
 
@@ -175,9 +245,12 @@
                 13) Declarations for font sizes
             </h3>
 
-            <p>
-                <img src="pictures/13.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                p {
+                font-size: 16px;
+                }
+            </pre>
 
             <hr>
 
@@ -185,12 +258,18 @@
                 14) Declarations for font weights
             </h3>
 
-            <p>
-                <img src="pictures/14.png" alt="Picture">
-            </p>
+            <pre class="pre-box">
+
+                p {
+                font-weight: 100;
+                }
+            </pre>
         </section>
         
-        
+        <section>
+            <h2 class="main-header">Flex Box</h2>
+            <img id="flexbox-pic" src="pictures/flex-box.png" alt="Flex Box">
+        </section>
     </article>
 </body>
 </html>

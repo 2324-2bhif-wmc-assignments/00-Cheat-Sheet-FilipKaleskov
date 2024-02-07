@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Assignment 1</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css">
 
 </head>
@@ -17,15 +18,21 @@
                 <h2>General</h2>
             </div>
 
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#section1">World Wide Web General</a>
+                            <a class="nav-link active" aria-current="page" href="#section2">Web Server</a>
+                            <a class="nav-link active" aria-current="page" href="#section3">Web Client</a>
+                            <a class="nav-link active" aria-current="page" href="#section4">Hello World</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
             <section>              
                 <br>
-
-                <div id="links">
-                    <a href="#section1" class="btn">World Wide Web General</a>
-                    <a href="#section2" class="btn"> Web Server</a>
-                    <a href="#section3" class="btn"> Web Client</a>
-                    <a href="#section4" class="btn"> Hello World</a>
-                </div>
 
                 <h2 class="main-header">World Wide Web General</h2>
 
@@ -36,7 +43,7 @@
                     1) What are the most essential technologies that made the World Wide Web such a success?
                 </h3>
                 <p>
-                    1) There are three main ingredients that make up the world wide web.
+                    There are three main ingredients that make up the world wide web.
                     URL (uniform resource locator), which is the addressing scheme to find a document;
                     HTTP (hypertext transfer protocol), which connects computers together;
                     and HTML (hypertext markup language), which formats pages containing hypertext links.
@@ -46,7 +53,7 @@
                     2) How are resources (html pages, images, etc) addressed in the web?
                 </h3>
                 <p>
-                    2) The uniform resource locator (URL) is the most common form of resource identifier.
+                    The uniform resource locator (URL) is the most common form of resource identifier.
                     URLs describe the specific location of a resource on a particular server.
                     They tell you exactly how to fetch a resource from a precise, fixed location.
                 </p>
@@ -55,7 +62,7 @@
                     3)  What are the general components of a url?
                 </h3>
                 <p>
-                    3)There are 3 general components in a url.
+                    There are 3 general components in a url.
                     The URL schema is used as an identifier in launching applications and performing a set of commands.
                     The scheme is the first part of a url, for example: https:// or http://
                     The server address is an external IP address that connects your computer to the Internet Service Provider (ISP),
@@ -74,20 +81,20 @@
                     1) What is a web server?
                 </h3>
                 <p>
-                    1) A web server is a computer system capable of delivering web content to end users over the internet via a web browser.
+                    A web server is a computer system capable of delivering web content to end users over the internet via a web browser.
                 </p>
 
                 <h3>
                     2) What does a web server?
                 </h3>
                 <p>
-                    2) Web servers are primarily used to process and manage HTTP/HTTPS requests and responses from the client system.
+                    Web servers are primarily used to process and manage HTTP/HTTPS requests and responses from the client system.
                 </p>
                 <h3>
                     3) How can content be stored on a web server?
                 </h3>
                 <p>
-                    3) Content can be stored on a web server using various methods and technologies,
+                    Content can be stored on a web server using various methods and technologies,
                     depending on the type of content,
                     the scale of your website or application, and your specific requirements.
                 </p>
@@ -95,7 +102,7 @@
                     4) How is content in webpages described?
                 </h3>
                 <p>
-                    4) Content in webpages is typically described using various markup and scripting languages,
+                    Content in webpages is typically described using various markup and scripting languages,
                     with HTML being the primary language for structuring and describing the content of a webpage.
                 </p>
             </section>
@@ -109,7 +116,7 @@
                     1) What is a web client?
                 </h3>
                 <p>
-                    1) A web client is a client-side application used for connecting to a web server over HTTP.
+                    A web client is a client-side application used for connecting to a web server over HTTP.
                     It is typically a web browser or web app which displays web pages received from the server and allows users to interact with the web server.
                 </p>
 
@@ -117,7 +124,7 @@
                     2) What does a web client?
                 </h3>
                 <p>
-                    2) A web client,
+                    A web client,
                     performs several essential functions when interacting with web servers and accessing web content.
                 </p>
 
@@ -125,7 +132,7 @@
                     3) Web Client and Web Browser is the same
                 </h3>
                 <p>
-                    3) A web client and a web server are two distinct components in the client-server model of the World Wide Web.
+                    A web client and a web server are two distinct components in the client-server model of the World Wide Web.
                     They have different roles and responsibilities when it comes to processing and delivering web content.
                     A web client is the software that end users employ to access and interact with web content,
                     while a web server is the software responsible for storing, processing, and serving that content to clients.
@@ -141,7 +148,7 @@
                     1) What is the html head element?
                 </h3>
                 <p>
-                    1) The HTML &lt;head&gt; element is an essential part of an HTML document.
+                    The HTML &lt;head&gt; element is an essential part of an HTML document.
                     It is not displayed on the web page itself but contains important metadata and information about the document.
                 </p>
 
@@ -149,7 +156,7 @@
                     2) What does &lt;!DOCTYPE html&gt; mean?
                 </h3>
                 <p>
-                    2) The &lt;!DOCTYPE html&gt; declaration is an important element at the beginning of an HTML document that specifies the document type definition for the HTML version being used.
+                    The &lt;!DOCTYPE html&gt; declaration is an important element at the beginning of an HTML document that specifies the document type definition for the HTML version being used.
                     It serves as a signal to the web browser about which version of HTML the document is written in and how it should be parsed and displayed.
                 </p>
 
@@ -157,14 +164,14 @@
                     3) What are the two top most elements within the html element?
                 </h3>
                 <p>
-                    3) Within the &lt;html&gt; element, the two topmost elements are typically the &lt;head&gt; and &lt;body&gt; elements.
+                    Within the &lt;html&gt; element, the two topmost elements are typically the &lt;head&gt; and &lt;body&gt; elements.
                 </p>
 
                 <h3>
                     4) How to emphasize a text and how is it displayed in the browser?
                 </h3>
                 <p>
-                    4) To emphasize text in HTML, you can use the &lt;em&gt; element or the &lt;strong&gt; element,
+                    To emphasize text in HTML, you can use the &lt;em&gt; element or the &lt;strong&gt; element,
                     depending on the level of emphasis you want to apply.
                     <br>
                     For example:
@@ -177,7 +184,7 @@
                     5) How to mark up important ext and how is it displayed in the browser?
                 </h3>
                 <p>
-                    5) To mark up important text in HTML, you can use the &lt;mark&gt; element.
+                    To mark up important text in HTML, you can use the &lt;mark&gt; element.
                     The &lt;mark&gt; element is used to highlight or mark a section of text
                     as important or relevant within the context of the document.
                     <br>
@@ -187,5 +194,8 @@
                 <p>This is some <mark>important text</mark> in the document.</p>
             </section>
         </article>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
     </body>
+
 </html>
