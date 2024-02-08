@@ -78,10 +78,9 @@ table, th, td {
   }
 
 #box_model_picture {
-    height: 200px;
-    width: 340px;   
-    float: right; 
-    margin-top: 4rem;
+    height: 240px;
+    width: 380px;
+    float: right;
 }
 
 #box_model_list {
@@ -138,10 +137,12 @@ table, th, td {
 
 .pre-box {
     background-color: darkgray;
+    box-shadow: 10px 10px 5px gray;
 }
 
 div pre {
     background-color: darkgray;
+    box-shadow: 10px 10px 5px gray;
 }
 
 #flexbox-pic {
